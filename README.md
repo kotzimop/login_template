@@ -1,34 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NEXT JS USER REGISTRATION AND LOGIN BOILERPLATE CODE
+> Basic user registration and login functionality using next-auth and server session. Consuming a simple prisma use Model and storing info in PostgresSQL, users can use the app.
 
-## Getting Started
+The app uses a simple navigation menu and the user can register or login in the app providing credentials. The whole functionality is done using modals. 
 
-First, run the development server:
+## How To Use
+After cloning the repo run:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
+npm install
+```
+Create a .env file containing 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```
+DATABASE_URL
+NEXTAUTH_URL
+NEXTAUTH_SECRET
+```
+## Usage example
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![image](https://github.com/kotzimop/login_template/assets/59737514/a5febae6-85ea-4a13-9ab5-70911ce432fe)
+![image](https://github.com/kotzimop/login_template/assets/59737514/d66d8b78-1721-4599-909c-225188d6c23b)
+![image](https://github.com/kotzimop/login_template/assets/59737514/0a5c033d-471f-44eb-9718-c9c4b6b5ca3a)
+![image](https://github.com/kotzimop/login_template/assets/59737514/4f08a38f-9bbc-41f1-8377-c8e53d87859b)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![image](https://github.com/kotzimop/login_template/assets/59737514/25898830-21c8-462f-8342-ff60c131d7f0)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
